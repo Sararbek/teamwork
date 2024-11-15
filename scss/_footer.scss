@@ -1,0 +1,79 @@
+.footer{
+    width: 100%;
+    padding: 80px 0 30px 0;
+    background: $first-color;
+    color: $whitish-text-color;
+    font-family: Poppins;
+    &__body{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 50px;
+    }
+    &__skeleton{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        gap: 24px;
+        h4{
+            font-family: Inter;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: 3%;
+        }
+        p{
+            font-weight: 600;
+            line-height: 28px;
+        }
+        a{
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        form{
+            padding: 12px;
+            border: 1px solid $whitish-text-color;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            cursor: pointer;
+        }
+    }
+    &__contact-images{
+        display: flex;
+        gap: 8px;
+        .contact-image{
+            img{
+                width: 76px;
+            }
+        }
+        .contact-images{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            img{
+                width: 100px;
+            }
+        }
+    }
+    &__copy{
+        padding: 72px 0 0 0;
+        display: flex;
+        align-items:  center;
+        justify-content: center;
+        p{
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            font-weight: 400;
+            font-size: 12px;
+            img{
+                width: 20px;
+            }
+        }
+    }
+}
